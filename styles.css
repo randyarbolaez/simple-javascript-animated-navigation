@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  font-family: 'Pacifico', cursive;
+  background: #435058;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav h1 {
+  font-size: 5rem;
+  color: #848c8e;
+}
+
+img {
+  margin-left: 35%;
+  width: 450px;
+  height: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1:hover {
+  color: #172121;
+}
+
+#cool {
+  width: 100px;
+  height: 100px;
+  background: #848c8e;
+  position: relative;
+}
+
+@keyframes mynewmove {
+  from {
+    left: 0vw;
+  }
+  to {
+    left: 90vw;
+  }
+}
